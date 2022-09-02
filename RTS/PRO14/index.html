@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="CSS/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/scripts.js"></script>
+    <title>Calculadora</title>
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <td><input readonly id="display" class="displayer" type="text" value=""></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td><input type="button" value="7" onClick="operators('7')"></td>
+            <td><input type="button" value="8" onClick="operators('8')"></td>
+            <td><input type="button" value="9" onClick="operators('9')"></td>
+            <td><input type="button" value="+" onClick="operators('+')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="4" onClick="operators('4')"></td>
+            <td><input type="button" value="5" onClick="operators('5')"></td>
+            <td><input type="button" value="6" onClick="operators('6')"></td>
+            <td><input type="button" value="-" onClick="operators('-')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="1" onClick="operators('1')"></td>
+            <td><input type="button" value="2" onClick="operators('2')"></td>
+            <td><input type="button" value="3" onClick="operators('3')"></td>
+            <td><input type="button" value="*" onClick="operators('*')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="0" onClick="operators('0')"></td>
+            <td><input type="button" value="C" onClick="operators('C')"></td>
+            <td><input type="button" value="CE" onClick="operators('CE')"></td>
+            <td><input type="button" value="/" onClick="operators('/')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="%" onClick="operators('%')"></td>
+            <td><input type="button" value="1/X" onClick="operators('1/X')"></td>
+            <td><input type="button" value="raiz" onClick="operators('raiz')"></td>
+            <td><input type="button" value="=" onClick="operators('=')"></td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
+
+<!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
