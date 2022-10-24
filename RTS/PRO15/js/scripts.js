@@ -1,4 +1,4 @@
 function launchPhoto(image) {
-    var cl = document.getElementById("viewer");
-    cl.innerHTML = document.write('<img src="'+image+'"/>');
+    document.getElementById("viewer").src = "resources/foto" + image + ".jpg";
+
 }

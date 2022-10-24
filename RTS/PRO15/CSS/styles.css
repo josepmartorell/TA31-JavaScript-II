@@ -1,7 +1,13 @@
 table, th, td {
-    border: 1px solid black;
-  }
+  border: 1px solid black;
+  display: inline-block; /* dispone los elementos (tablas) de izquierda a derecha */
+}
 
 img {
-    width: 100px;
+  width: 200px;
+}
+
+#viewer{
+width: 629px;
+height: 629px;
 }
